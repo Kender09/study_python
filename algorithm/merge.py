@@ -10,9 +10,9 @@ class Merge:
         l_array = self.mSort(array[:mid])
         r_array = self.mSort(array[mid:])
 
-        return self.marge(l_array, r_array)
+        return self.sort_marge(l_array, r_array)
 
-    def marge(self, l_array, r_array):
+    def sort_marge(self, l_array, r_array):
         marge_array = []
         l_index = 0
         r_index = 0
@@ -39,3 +39,11 @@ if __name__ == '__main__':
     obj = Merge()
     ans = obj.mSort(array)
     print(ans)
+
+while True:
+	deg = int(input())
+	duty = (1.0 + deg/180.0)/20.0*100.0
+	pwm.ChangeDutyCycle(duty)
+    s = input()
+	duty = (1.0 + fat_rate/180.0)/20.0*100.0
+    pwm.ChangeDutyCycle(duty)
