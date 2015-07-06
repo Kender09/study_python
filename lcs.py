@@ -1,3 +1,8 @@
+"""
+Longest Common Subsequence
+ex input)
+ ABCDBDD VBDDSD
+"""
 n, m = map(int, input().split())
 s_str = input()
 b_str = input()

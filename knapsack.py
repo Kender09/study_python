@@ -18,6 +18,15 @@ class Knapsack():
         return res
 
 if __name__ == '__main__':
+    """
+    ex input)
+        4
+        2 3
+        1 2
+        3 4
+        2 2
+        5
+    """
     size = int(input())
     weight_list = []
     value_list = []
